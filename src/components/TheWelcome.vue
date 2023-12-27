@@ -12,49 +12,38 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Who is he?</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    Riku Kandaは日本在住の大学生です. 
+    <ul>
+      <li>年齢: 19歳(2004年生まれ)</li>
+      <li>拠点: 名古屋</li>
+      <li>学歴: 名古屋外国語大学 (在学)</li>
+      <li>性格: 週７で家に女を連れ込むクズ. 付き合った女をメンヘラにする</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>About Him</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
+    Riku Kandaはスケボーのプロフェッショナルです. 彼のスケボースキルのせいで親友の口癖を「リクはスケボーがあるやん」に変えてしまいました.
+     <br />
 
-    <br />
-
-    More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <template #heading> Product</template>
+    <ul>
+      <li>ファッションEC「
+        <a href="https://imaceobitch.netlify.app/">nne7er</a>
+        」</li>Stack: Django, Vue.js, AWS
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -62,27 +51,19 @@ import SupportIcon from './icons/IconSupport.vue'
       <CommunityIcon />
     </template>
     <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    週一で優秀な弟子にモテのイロハを教えています. 弟子は全てを吸収する姿勢で今では外見で2人を区別することはできません.  また, メイヘム計画の首謀者です.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <template #heading>Contact</template>
+    <ul>
+      <li>Instagram: 
+        <a href="https://www.instagram.com/__al_.sxce/">@__al_.sxce</a>
+      </li>
+    </ul>
+    <!-- <img alt="Vue logo" src="./assets/スクリーンショット 2023-12-27 20.58.52.png" class="logo"  width="270" height="352" /> -->
   </WelcomeItem>
 </template>
